@@ -1,0 +1,125 @@
+
+div {
+    position: center;
+    z-index: 2;
+  }
+  
+  body {
+    background-color: black;
+    color: #333;
+    font-family: 'Arial Black';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .footer {
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 0.8em;
+    color: #fff;
+  
+  }
+  #quote-box {
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #919191;
+    border-width: 4px;
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: transparent;
+    animation: fadein 5s;
+    
+    
+  }
+  
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+   
+  }
+  
+  #offwhite-left {
+        font-family: arial;
+        font-size: 5.5em; 
+        position: left;
+        float: left;
+        color: white;
+        clear: both;
+        
+        
+  }
+  
+  #offwhite-right {
+      font-family: arial;
+      font-size: 5.5em;
+      float: right;
+      position: right;
+      color: white;
+      clear: right;
+      
+  }
+    .quote-text {
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+      width: 750px;
+      height: auto;
+      clear: both;
+      font-weight: 500;
+      font-size: 1.75em;
+      
+    }
+    .quote-author {
+      color: white;
+      width: 750px;
+      height: auto;
+      padding-top: 20px;
+      font-size: 1em;
+      text-align: center;
+    }
+    .buttons {
+      padding-top: 40px;
+      width: 450px;
+      margin: auto;
+      display: block;
+      }
+  
+    
+        #tweet-quote {
+          color: #1DA1F2;
+          float: left;
+          padding: 0px;
+          padding-top: 8px;
+          text-align: center;
+          font-size: 1.2em;
+          margin-right: 5px;
+          height: 40px;
+          width: 40px;
+          transform: scale(1.35)
+        }
+        #tweet-quote:hover {
+          color: #6DC3F7;
+          cursor: pointer;
+        }
+        
+        #new-quote {
+          float: right;
+          font-family: arial black;
+           margin-top: 7px;
+          
+        }
+        #new-quote:hover {
+          cursor: pointer;
+  
+       
+    
+          }

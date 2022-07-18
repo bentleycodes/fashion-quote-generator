@@ -29,7 +29,7 @@ div {
     text-transform: uppercase;
     border-style: solid;
     border-color: #919191;
-    border-width: 4px;
+    border-width: 5px;
     border-radius: 3px;
     position: relative;
     width: 450px;
@@ -37,6 +37,7 @@ div {
     display: table;
     background-color: transparent;
     animation: fadein 5s;
+    cursor: default;
     
     
   }
